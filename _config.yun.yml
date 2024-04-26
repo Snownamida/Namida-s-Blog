@@ -44,3 +44,25 @@ say:
   hitokoto:
     enable: true
     api: https://v1.hitokoto.cn
+
+menu:
+  home:
+    path: /
+    icon: ri:home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: ri:archive-line
+    # - type: categories
+    #   path: /categories/
+    #   icon: ri:folder-2-line
+    # - type: tags
+    #   path: /tags/
+    #   icon: ri:price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: ri:cloud-line
+    #   count: 你猜
+  # custom:
+  #   title: 文档
+  #   path: https://yun.yunyoujun.cn
+  #   icon: ri:settings-line
